@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'Score Font';
+    src: url("../assets/fonts/score_font.ttf");
+}
+
+@font-face {
+    font-family: 'Verdana';
+    src: url("../assets/fonts/verdana.ttf");
+}
+
+@font-face {
+    font-family: 'Verdana B';
+    src: url("../assets/fonts/verdana_bold.ttf");
+}
+
+@font-face {
+    font-family: 'Verdana I';
+    src: url("../assets/fonts/verdana_bold_italic.ttf");
+}
+
 body {
     margin: 0;
 }
