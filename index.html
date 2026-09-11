@@ -1,20 +1,42 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Basketball Scoreboard</title>
-    <link rel="stylesheet" href="./src/css/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./src/css/styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <div>
-            <h3>HOME</h3>
+      <div class="scoreboard">
+        <div class="home score-side">
+          <h1 class="score-text">HOME</h1>
+
+          <div class="score-background">
+            <h2 class="score" id="home-el">0</h2>
+          </div>
+
+          <div class="score-lists">
+            <button onclick="add1home()" class="score-list">+1</button>
+            <button onclick="add2home()" class="score-list">+2</button>
+            <button onclick="add3home()" class="score-list">+3</button>
+          </div>
         </div>
 
-        <div>
-            <h3>GUEST</h3>
+        <div class="away score-side">
+          <h1 class="score-text">AWAY</h1>
+
+          <div class="score-background">
+            <h2 class="score" id="away-el">0</h2>
+          </div>
+
+          <div class="score-lists">
+            <button onclick="add1away()" class="score-list">+1</button>
+            <button onclick="add2away()" class="score-list">+2</button>
+            <button onclick="add3away()" class="score-list">+3</button>
+          </div>
         </div>
+      </div>
     </div>
     <script src="./src/js/index.js"></script>
-</body>
+  </body>
 </html>
