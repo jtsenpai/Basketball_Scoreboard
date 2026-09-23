@@ -28,6 +28,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .scoreboard {
@@ -90,4 +91,24 @@ body {
   border-radius: 5px;
   font-size: 1rem;
   cursor: pointer;
+}
+
+.reset {
+  margin-top: 5rem;
+}
+
+.reset-button {
+  background: #000000;
+  color: #fff;
+  padding: 10px 15px;
+  border: 1px solid #9aabd8;
+  border-radius: 5px;
+  font-family: "Verdana B", "serif";
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.reset-button:hover {
+  background: #fff;
+  color: #1b244a;
 }

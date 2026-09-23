@@ -35,3 +35,13 @@ function add3away() {
     scoreAway += 3;
     awayEl.textContent = scoreAway;
 }
+
+function reset() {
+    score = 0
+
+    scoreHome = score
+    scoreAway = score
+
+    homeEl.textContent = score
+    awayEl.textContent = score
+}

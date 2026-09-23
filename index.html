@@ -8,7 +8,7 @@
   <body>
     <div class="container">
       <div class="scoreboard">
-        <div class="home score-side">
+        <div class="score-side">
           <h1 class="score-text">HOME</h1>
 
           <div class="score-background">
@@ -22,7 +22,7 @@
           </div>
         </div>
 
-        <div class="away score-side">
+        <div class="score-side">
           <h1 class="score-text">AWAY</h1>
 
           <div class="score-background">
@@ -35,6 +35,10 @@
             <button onclick="add3away()" class="score-list">+3</button>
           </div>
         </div>
+      </div>
+
+      <div class="reset">
+        <button onclick="reset()" class="reset-button">New Match</button>
       </div>
     </div>
     <script src="./src/js/index.js"></script>
